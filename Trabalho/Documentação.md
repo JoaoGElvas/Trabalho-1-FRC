@@ -60,11 +60,11 @@ No terminal, digite:
    ```bash
    gcc --version
 2. Compile o código: </br>
-   2.1 Navegue até o diretório onde o arquivo client.c está localizado:
+   2.1. Navegue até o diretório onde o arquivo client.c está localizado:
       ```bash
       cd /path/to/your/file
       ```
-   2.2 Após estar no diretorio do seu programa
+   2.2. Após estar no diretorio do seu programa
       ```bash
       gcc cliente_sntp.c -o client
       ```
