@@ -25,7 +25,7 @@ Este projeto implementa um cliente para o protocolo SNTP (Simple Network Time Pr
 
 ### macOS
 - **Sistema Operacional**: macOS Ventura ou posterior.
-- **Compilador**: Clang (compilador padrão do macOS).
+- **Compilador**: GCC (Instalado com o Xcode Command Line Tools)
 - **Editor de Texto**: Visual Studio Code (ou outro de sua preferência).
 - **Outras Ferramentas**: `make`, `lldb` para depuração.
 
@@ -55,17 +55,22 @@ Este projeto implementa um cliente para o protocolo SNTP (Simple Network Time Pr
    ```
 
 ### No macOS
-1. Verifique se o Clang está configurado:
+1. Certifique-se de que o GCC está instalado: </br>
+No terminal, digite:
    ```bash
-   clang --version
-   ```
-2. Compile o código:
-   ```bash
-   clang -o cliente_sntp cliente_sntp.c
-   ```
+   gcc --version
+2. Compile o código: </br>
+   2.1 Navegue até o diretório onde o arquivo client.c está localizado:
+      ```bash
+      cd /path/to/your/file
+      ```
+   2.2 Após estar no diretorio do seu programa
+      ```bash
+      gcc cliente_sntp.c -o client
+      ```
 3. Execute o programa:
    ```bash
-   ./cliente_sntp <IP_DO_SERVIDOR_NTP>
+   ./cliente_sntp.c <IP_DO_SERVIDOR_NTP>
    ```
 
 ### No Windows (com MinGW)
