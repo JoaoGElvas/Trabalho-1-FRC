@@ -70,7 +70,7 @@ No terminal, digite:
       ```
 3. Execute o programa:
    ```bash
-   ./cliente_sntp.c <IP_DO_SERVIDOR_NTP>
+   ./cliente_sntp <IP_DO_SERVIDOR_NTP>
    ```
 
 ### No Windows (com MinGW)
