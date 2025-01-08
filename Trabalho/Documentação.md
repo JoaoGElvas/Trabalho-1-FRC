@@ -1,5 +1,19 @@
 # Cliente de Tempo (SNTP)
 
+## Integrantes
+
+<div align="center">
+
+| **Nome**     | **Matrícula** |
+|:---------------------:|:-------------:|
+| [Bruno Henrique](https://github.com/BrunoHenrique00)        | 190134275     |
+| [João Gabriel Elvas](https://github.com/JoaoGElvas)    | 190109599     |
+| [Lucas Ribeiro](https://github.com/lucassouzs)         | 211063185     |
+| [Lucas Víctor](https://github.com/Lucas13032003)         | 211063194     |
+
+</div>
+
+
 ## Introdução
 
 Este projeto implementa um cliente para o protocolo SNTP (Simple Network Time Protocol), com base nos requisitos do **Trabalho 01** da disciplina **Fundamentos de Redes de Computadores**. O cliente utiliza **sockets UDP** para comunicação com um servidor NTP, recupera a data e hora fornecidas pelo servidor e as apresenta no formato humano legível. Além disso, o projeto possui tratamento de erros e implementa um mecanismo de timeout para evitar bloqueios indefinidos.
